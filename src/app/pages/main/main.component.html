@@ -1,0 +1,25 @@
+<div class="mainContent">
+    <div class="row">
+        <div class="col-12">
+            <h1><b>Análisis Estadístico de Estudiante</b></h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel recusandae iure explicabo dolorum fugiat
+                quaerat
+                eveniet excepturi.</p>
+        </div>
+    </div> <br>
+    <div class="row text-center">
+        <div class="col-6 form">
+            <form ngNativeValidate #codigo="ngForm" (ngSubmit)="goToDashboard(codigo)">
+                <div class="form-group">
+                    <label for="codigo"><b>Código de Estudiante</b> </label>
+                    <input ngModel name="codigo" type="text" class="form-control" id="codigo" required>
+                </div>
+                <button type="submit" class="btn btn-secondary">Buscar</button>
+            </form>
+        </div>
+    </div>
+</div>

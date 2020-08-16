@@ -1,0 +1,49 @@
+<div class="mainContent">
+    <div class="row">
+        <div class="col-12">
+            <h1><b>Bienvenido a sus Estadísticas</b></h1>
+            <p><b>Nombre:</b> {{dataEstudiante?.nombres}} {{dataEstudiante?.apellidos}}</p>
+            <p><b>Código:</b> {{dataEstudiante?.codigo}}</p>
+            <p><b>Identificación:</b> {{dataEstudiante?.identificacion}}</p>
+        </div>
+    </div>
+    <div class="row chart">
+        <app-line-chart></app-line-chart>
+    </div>
+    <div class="row barchart">
+        <h4>Estadísticas por Semestre</h4>
+        <p>Nota: las gráficas de barras, no son dinámicas</p>
+    </div>
+
+    <div class="row barchart">
+        <div class="col-6">
+            <label style="font-size: 20px; margin-left: -50px;"><b>Asignatura 1</b></label>
+            <app-bar-chart></app-bar-chart>
+        </div>
+
+        <div class="col-6">
+            <label style="font-size: 20px; margin-left: -50px;"><b>Asignatura 2</b></label>
+            <app-bar-chart></app-bar-chart>
+        </div>
+
+    </div>
+    <div class="row barchart">
+        <div class="col-6">
+            <label style="font-size: 20px; margin-left: -50px;"><b>Asignatura 3</b></label>
+            <app-bar-chart></app-bar-chart>
+        </div>
+
+        <div class="col-6">
+            <label style="font-size: 20px; margin-left: -50px;"><b>Asignatura 4</b></label>
+            <app-bar-chart></app-bar-chart>
+        </div>
+
+    </div>
+    <div class="row barchart">
+        <div class="col-6">
+            <label style="font-size: 20px; margin-left: -50px;"><b>Asignatura 5</b></label>
+            <app-bar-chart></app-bar-chart>
+        </div>
+    </div>
+
+</div>

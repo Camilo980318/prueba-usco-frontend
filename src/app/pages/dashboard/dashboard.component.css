@@ -1,0 +1,34 @@
+.mainContent{
+    background-color: white;
+    width: 80%;
+    height: auto;
+    padding-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.mainContent h1{
+    color: #5C0E12;
+}
+
+.mainContent p {
+    font-size: 20px;
+}
+
+
+.chart{
+    margin-left: 60px;
+}
+
+.barchart{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.barchart h4{
+    color: #5C0E12;
+}

@@ -1,0 +1,36 @@
+.mainContent{
+    background-color: white;
+    width: 70%;
+    height: auto;
+    padding-left: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 150px;
+    margin-left: 230px;
+    border-radius: 20px;
+}
+
+.mainContent h1{
+    color: #5C0E12;
+}
+
+.mainContent p {
+    text-align: center;
+    margin-left: 120px;
+}
+
+
+.form {
+    margin-left: 120px;
+    margin-top: -15px;
+}
+
+.form label {
+    color: #5C0E12;
+    font-size: 20px;
+}
+
+.form button {
+    background-color: #5C0E12;
+    
+}
